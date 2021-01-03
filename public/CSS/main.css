@@ -1,0 +1,1261 @@
+.botonesCabecera{
+    margin-right: 0.7em;
+    width: 8em;
+    height: 3em;
+    border: 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+#cabeceraDerecha{
+    /*margin-top: 2.5em;*/
+    display: inline-block;
+
+}
+
+#cabeceraDerechaLogeado{
+    /*margin-top: 2.5em;*/
+    display: inline-block;
+    background-color: cornsilk;
+    padding-left: 1em;
+    margin-right: 1em;
+}
+
+#cabeceraDerecha a:visited{
+    color: black;
+}
+
+#cabeceraDerechaLogeado a:visited{
+    color: brown;
+}
+
+#header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: 5em;
+    background-color: greenyellow;
+    margin-top: 0;
+    box-shadow: 0px 5px  10px 0 rgba(0,0,0,0.3);
+    overflow: auto;
+    text-align: right;
+}
+
+
+
+#cuerpo{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
+}
+
+#logo{
+    float:left;
+
+}
+
+.formCabecera{
+    margin-top: 2em;
+    margin-right: 2em;
+    width: 40em;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.inputCabecera{
+    height: 30px;
+    background: 0 0;
+    color: black;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    width: 220px;
+    border-radius: 0;
+    position: relative;
+    top: -5px;
+    outline: none;
+
+}
+
+.submitSearch{
+    width: 36px;
+    height: 36px;
+    background: url("http://cybergangas.test/img/buscar.png") 9px 8px no-repeat;
+    background-size: 23px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    /*-moz-border-radius: 0 5px 5px 0;*/
+    /*-webkit-border-radius: 0 5px 5px 0;*/
+    border-radius: 0 5px 5px 0;
+    text-shadow: 1px 1px black;
+    font-size: 10px;
+    vertical-align: bottom;
+    outline: none;
+}
+
+/*Para el index*/
+.botonCard{
+    background-color: greenyellow;
+    border: 1px solid black;
+    border-radius: 12px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: proximanova,arial,sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.botonPrimero{
+    border: 1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: "Roboto", serif;
+    background-color: greenyellow;
+    border-radius: 20px;
+
+}
+
+.sectionOne {
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.sectionTwo {
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 3em;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    background: white;
+
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+
+}
+
+.center{
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.row {margin: 0 -5px;}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sectionThree {
+    text-align: left;
+    padding-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.sectionFour {
+    text-align: left;
+    padding-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+/** ON HOVER CLICK **/
+
+.card:hover .overlay{
+    width: 100%;
+    left: 0;
+}
+
+.containerDos {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: lightgray;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.containerDos:hover .overlay {
+    width: 100%;
+    left: 0;
+}
+
+.buttonHover {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+
+table {
+    font-family: "Comic Sans MS", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr {
+    background-color: greenyellow;
+}
+
+
+.botonCardDos{
+
+    background-color: greenyellow;
+    border: 1px solid black;
+    border-radius: 12px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: proximanova,arial,sans-serif;
+}
+
+.textoOne{
+    font-size: 3vm;
+    font-family: "Comic Sans MS";
+    background-color: yellow;
+    color: black;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+.grid-item {
+    padding: 20px;
+    font-size: 5vw;
+    text-align: center;
+}
+
+
+
+/************************************Para el login**************************************/
+
+input[type=email],input[type=password] {
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.formularioLogin{
+    text-align: center;
+}
+
+.formularioDivLogin{
+    text-align: right;
+    display: inline-block;
+}
+
+.loginButton{
+
+    background-color: orange;
+    border: none;
+    color: white;
+    width: 400px;
+    height: 50px;
+    padding: 10px 26px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.centerLoginH1 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.hrUno{
+    text-align: center;
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.createAccount {
+    background-color: white;
+    border: 1px solid lightgrey;
+    color: black;
+    width: 400px;
+    height: 50px;
+    padding: 10px 26px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/************************************Para el Register**************************************/
+.widerTextForm{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.justificado{
+    text-align:justify; width:400px;
+}
+
+/************************************Para el detail**************************************/
+
+.rowProductDetail {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 4em;
+    text-align: center;
+    padding-top: 1em;
+    border-radius: 1em;
+}
+
+.cardDetail {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 25%;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-right: 5%;
+    float: left;
+    height: auto;
+
+}
+.resized {
+    width: 130px;
+    height: 130px;
+    border: solid lightgrey;
+    margin: 30px;
+}
+
+.addCarrito {
+    background-color: white;
+    border: 1px solid lightgrey;
+    color: black;
+    padding: 10px 26px;
+    text-decoration: none;
+    font-size: 0.7vw;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+}
+
+.buyButton {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 10px 26px;
+    text-decoration: none;
+    font-size: 0.7vw;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+}
+
+.heartButton {
+    margin-right: 0.5vw;
+    border: 1px solid lightgrey;
+    vertical-align: middle;
+    width: 1.7vw;
+    height: auto;
+}
+
+.marginTop {
+    margin-top: 15%;
+}
+
+.responsiveFont{
+    font-size: 1vw;
+}
+
+.hrDos{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+#Caracteristicas {background-color: grey;}
+#Especificaciones {background-color: black;}
+#Opiniones {background-color: grey;}
+#Preguntas {background-color: cadetblue;}
+
+/****** OPINION ******/
+
+.heading {
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+.fa {
+    font-size: 25px;
+}
+
+.checked {
+    color: orange;
+}
+
+/* Three column layout */
+.side {
+    float: left;
+    width: 15%;
+    margin-top:10px;
+}
+
+.middle {
+    margin-top:10px;
+    float: left;
+    width: 70%;
+}
+
+/* Place text to the right */
+.right {
+    text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The bar container */
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 0%; height: 18px; background-color: #4CAF50;}
+.bar-4 {width: 0%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 0%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 0%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 0%; height: 18px; background-color: #f44336;}
+
+/************************************Para el Producto**************************************/
+.headingDos {
+    font-size: 15px;
+
+
+}
+.headingTres {
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.rowProduct {
+    /*display: flex;*/
+    flex-wrap: wrap;
+    display: inherit;
+    margin-bottom: 4em;
+    text-align: center;
+    border: 1px solid aliceblue;
+    padding-top: 1em;
+    background-color: cornsilk;
+    border-radius: 1em;
+}
+
+.productMod {
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.formularioDivProduct{
+    text-align: right;
+    display: inline-block;
+}
+
+.buttonLink{
+    background: none;
+    color: white;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    display: flex;
+    margin-bottom: 7%;
+    margin-left: 13%;
+
+}
+
+/************************************Para el WishList**************************************/
+.imgHeart {
+    width: 2.5vw;
+    height: auto;
+    margin-right: 0.5vw;
+}
+
+
+
+/************************************Para el footer**************************************/
+
+
+.footerNav{
+    color: black;
+    padding: 0px;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.ulList{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(6, 30px);
+    grid-column-gap: 0px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.footer {
+    position: absolute;
+    background-color: dimgrey;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    padding: 3px;
+    left: 0;
+    right: 0;
+    margin-top: 5em;
+    font-weight: bold;
+    color: white;
+    font-family: Calibri, serif ;
+}
+
+/**Para el sidebar**/
+
+/* The sidebar menu */
+.sidebar {
+
+    top: 5em;
+
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    margin-left: 10%;
+}
+
+.sidebar p {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    margin-left: 10%;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+    position: fixed;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    z-index: 100;
+}
+
+.openbtn2 {
+    float: right;
+    margin-top: 2em;
+    font-size:20px;
+    margin-right:1em;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition-property: margin-left, margin-right;
+    transition-duration: .5s; /* If you want a transition effect */
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+
+/**Para MI CARRITO*/
+.sidenavRight {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: lightgray;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    float: left;
+}
+
+.sidenavRight a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenavRight a:hover {
+    color: #f1f1f1;
+}
+
+.sidenavRight .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+/*LOGIN*/
+.barraIconos{
+    background: #363636;
+    border-top: 1px solid #474747;
+    box-shadow: inset 0 -11px 10px -15px #000;
+    position: relative;
+    margin: auto;
+    font-size: 0;
+    max-width: 1036px;
+    text-align: center;
+}
+.iconUser{
+    padding: 12px 16px 12px 43px;
+    background: url("http://cybergangas.test/img/iconos.png") no-repeat;
+    font-weight: 400;
+    color: #fff;
+    font-size: 13px;
+    position: relative;
+    top: -1px;
+    margin-bottom: -1px;
+    display: inline-block;
+    transition: all .1s ease;
+    vertical-align: top;
+    background-size: 16px;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+#iconUser a:hover{
+    background-color: #000;
+}
+
+.detalle_icono{
+    border: 1px solid hsla(0,0%,100%,.16);
+    border-radius: 11px;
+    padding: 3px 8px;
+    margin-left: 7px;
+}
+
+#iconoPedidos{
+    background-position: 20px 10px;
+}
+
+#iconoPreferencias{
+    background-position: 20px -265px;
+    /*background-position: 20px -34px;*/
+}
+
+#iconoPerfil{
+    background-position: 19px -81px;
+}
+
+#iconoReviews{
+    background-position: 20px -172px;
+}
+
+#iconoWishlist{
+    background-position: 19px -218px;
+}
+
+#iconoLogout{
+    background-position: 11px -311px;
+    float: right;
+}
+
+.formularioReview{
+    border: 1px dashed azure;
+    box-shadow: 0px 5px 10px 0 rgba(0,0,0,0.3);
+    padding: 1em;
+}
+
+.formularioReviewEnviar{
+    background-color: aquamarine;
+    padding: 1em;
+    width: 8em;
+    margin-left: 2em;
+}
+
+.formularioReviewPuntuacion{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.formularioReviewText{
+    margin-left: 2em;
+    width: 80%;
+
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    vertical-align: baseline;
+
+}
+
+.avatarCabeceraContenedor{
+    margin: 9px 0.9em 0px 0px;
+    width: 72px;
+    display: inline-block;
+}
+
+.avatarCabeceraNombre{
+    display: inline-block;
+    margin-bottom: 0;
+    color: brown;
+    font-size: 1.5em;
+    font-weight: bold;
+    vertical-align: top;
+    margin-top: 1.5em;
+
+}
+
+.avatarCabeceraImagen{
+    border-radius: 100%;
+    width: calc(100% - 12px);
+    border: 3px solid #fff;
+    margin: 3px;
+    /*background: #fff;*/
+    /*transition: all .1s ease;*/
+}
+
+.imagenReview{
+    width: 200px;
+    text-align: center;
+    margin-left: 38%;
+    margin-bottom: 2em;
+    border-radius: 100%;
+}
+
+.avatarPerfilImagen{
+    margin-top: 4em;
+    margin-left: 6em;
+    margin-bottom: 2em;
+    margin-right: 2em;
+    border-radius: 100%;
+    width: 150px;
+    border: 3px solid #fff;
+}
+
+.avatarPerfilContenedor{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto ;
+
+}
+
+.contenedorMiCuenta{
+    background-color: lightgrey;
+    max-width: 1036px;
+    position: relative;
+    margin: auto;
+    /*display: flex;*/
+}
+
+.informacionPerfilContenedor{
+    background-color: dimgrey;
+    display: inline-block;
+    margin-top: 4em;
+    margin-bottom: 2em;
+    width: 700px;
+    box-shadow: 0px 5px  10px 0 rgba(0,0,0,0.3);
+
+}
+
+.reviewContenedor{
+    background-color: cadetblue;
+    display: inline-block;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 90%;
+    box-shadow: 0px 5px  10px 0 rgba(0,0,0,0.3);
+    text-align: initial;
+}
+
+.review_informacion{
+    font-weight: bold;
+    color: white;
+    font-size: 1.4em;
+    margin-left: 2em;
+}
+
+.review_text{
+    color: peachpuff;
+    font-size: 2em;
+    margin-left: 2em;
+    font-weight: bold;
+    text-align: justify;
+    margin-right: 2em;
+    background-color: darkcyan;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.pedidoContenedor{
+    background-color: cadetblue;
+    display: inline-block;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 90%;
+    box-shadow: 0px 5px  10px 0 rgba(0,0,0,0.3);
+    text-align: initial;
+    padding-bottom: 2em;
+}
+
+.pedidoInformacion{
+    font-weight: bold;
+    color: white;
+    font-size: 1.4em;
+    margin-left: 2em;
+}
+
+.detalleMisPedidos{
+    display: none;
+}
+
+.pedidoTexto{
+    color: peachpuff;
+    font-size: 1.2em;
+    margin-left: 2em;
+    font-weight: bold;
+    text-align: justify;
+    margin-right: 2em;
+    background-color: darkcyan;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.imagenPedido{
+    width: 200px;
+    text-align: center;
+    margin-left: 38%;
+    margin-bottom: 2em;
+    border-radius: 100%;
+    margin-top: 1em;
+}
+
+.boton_seguimiento{
+    float:right;
+    cursor: pointer;
+    background-color: floralwhite;
+    padding: 1em;
+    border-radius: 25px;
+    margin-right: 2em;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.separacionOrdenesDetalle{
+    border-top: 3px solid #fff;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 4em;
+    margin-top: 4em;
+}
+
+.separacionReviews{
+    border-top: 2px solid #fff;
+    width: 95%;
+    margin-bottom: 4em;
+    margin-top: 4em;
+    margin-left: 2em;
+}
+
+.username_informacion{
+    font-weight: bold;
+    color: white;
+    font-size: 2em;
+    margin-left: 2em;
+}
+
+.username_date{
+    color: peachpuff;
+    font-size: 1em;
+    margin-left: 4em;
+}
+
+.iconosPerfil{
+    float: right;
+    margin: 0.5em 0.5em 0.5em 0em;
+}
+
+.deleteUserMainText{
+    text-align: center;
+    margin: auto;
+    padding-top: 1em;
+}
+
+.deleteUserSideText{
+    text-align: center;
+}
+
+.deleteUserFormYes{
+    text-align: center;
+    margin-bottom: 1em;
+
+}
+
+.deleteUserFormNo{
+    text-align: center;
+    margin-bottom: 1em;
+
+}
+
+.deleteUserInputNo{
+    padding: 1em;
+    margin-bottom: 1.5em;
+    width: 12em;
+    background-color: white;
+}
+
+.deleteUserInputYes{
+    padding: 1em;
+    width: 12em;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.formularioEditarUsuario{
+    margin-left: 5em;
+    padding-top: 2em;
+
+}
+
+.formularioEditarUsuarioElement{
+    margin-bottom: 2em;
+}
+
+.formularioEditarUsuarioSubmit{
+    padding: 1em 3em 1em 3em;
+    margin-bottom: 3em;
+}
+
+.formularioEditarImagenDeUsuario{
+    text-align: center;
+    display: inline-block;
+    margin-right: 3em;
+    margin-left: 3em;
+    margin-bottom: 2em;
+}
+
+.avatarFormularioEditarImagen{
+    display: flex;
+    margin-bottom: 0.5em;
+    width: 10em;
+}
+
+.settingsMainText{
+    margin-left: 2em;
+}
+
+
+/********************* Build your PC ****************************/
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+.centerDos{
+    /*margin: auto;*/
+    /*width: 60%;*/
+    /*max-width: 100%;*/
+    border: 3px solid #73AD21;
+    padding: 10px;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+
+/********************** SearchBar ******************************/
+
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding-bottom: 100%;
+    margin-top: 5%;
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/********************** privacidad ******************************/
+
+.tituloPrivacidad{
+    font-family: Calibri;
+    background: orange;
+    color: white;
+    padding: 20px 0 20px;
+    margin-top: 60px
+}
+
+.cuerpoPrivacidad{
+    margin-top: 20px;
+    margin-right: 30%;
+    margin-left: 30%;
+    padding: 20px;
+    border: solid 1px orange;
+    font-family: Calibri;
+
+}
+
+.ulWithSquare {
+    list-style-type: square;
+}
+.liDos{
+    text-align: justify;
+    padding: 10px 0px 0px 0px;
+}
+
+.ordenarascendente{
+    padding: 1em;
+    background-color: crimson;
+    margin-right: 1em;
+    border-radius: 15px;
+    color: white;
+}
+
+.ordenardescendente{
+    padding: 1em;
+    background-color: lightblue;
+    margin-right: 1em;
+    border-radius: 15px;
+    color: slateblue;
+}
+
+.ordenarPorPrecio{
+    display: inline-block;
+    margin-right: 1em;
+    margin-bottom: 3em;
+}
+
+#seccionDisplay{
+    border: 5px double greenyellow;
+    margin-top: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+    margin-left: 20em;
+    margin-right: 20em;
+}
+
+.articulo_inicial{
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 4em;
+}
+
+.divisorDisplay{
+    margin-bottom: 2em;
+    font-size: 1.4em;
+}
+
+p.main_text{
+    font-family: calibri, serif;
+    margin: 0.4em;
+    margin-bottom: 1em;
+}
+
+
+p.info_text{
+    font-family: Arial, serif;
+    margin-bottom: 0.5em;
+    margin-left: 0.3em;
+    font-weight: bold;
+}
