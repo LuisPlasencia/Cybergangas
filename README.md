@@ -1,6 +1,6 @@
-Presentación :  https://sites.google.com/view/trabajodecursopw/inicio
+Presentation:  https://sites.google.com/view/trabajodecursopw/inicio
 
-
+Made By: Luis Plasencia Pulido & Cunwang Guo
 
 
 
