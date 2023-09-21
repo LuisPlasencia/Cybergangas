@@ -1,6 +1,6 @@
 <h3>Presentation https://sites.google.com/view/trabajodecursopw/inicio </h3>
 
-Made By: Luis Plasencia Pulido & Cunwang Guo
+Made By: Luis Plasencia Pulido & Cunwang Guo<br />
 
 January 2021
 
